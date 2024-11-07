@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let version = "3.0.9"
+let version = "4.0.2"
 let package = Package(
     name: "ZohoDeskPortalAPIKit",
     platforms: [
@@ -18,6 +18,6 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .binaryTarget(name: "ZohoDeskPortalAPIKit", url: "https://maven.zohodl.com/ZohoDesk/ZohoDeskPortalAPIKit/\(version)/ZohoDeskPortalAPIKit.zip", checksum: "e71aa0a89ae397e43b47d67d1c2eca59ca2fc2f9fdd1a0d84422408bc73b4ac1")
+        .binaryTarget(name: "ZohoDeskPortalAPIKit", url: "https://maven.zohodl.com/ZohoDesk/ZohoDeskPortalAPIKit/\(version)/ZohoDeskPortalAPIKit.zip", checksum: "0c6788cbbede77159b716ab9f978593966ae3a33897065bed39675295b7964d1")
     ]
 )
